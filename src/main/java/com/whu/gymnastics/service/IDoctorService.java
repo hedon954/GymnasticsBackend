@@ -13,4 +13,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IDoctorService extends IService<Doctor> {
 
+    int addDocker(Doctor doctor);
 }
