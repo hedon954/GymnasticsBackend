@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gymnastics-backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.36.198.221:3306/26?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF8&useSSL=false
+    username: 26
+    password: WHUstu26
+
